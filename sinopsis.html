@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinopsis — Garis Yang Kita Tarik</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'], serif: ['Playfair Display', 'serif'] },
+          colors: { midnight: '#0B0D17', parchment: '#F2EFE9', ochre: '#D97706', wine: '#4A1942' }
+        }
+      }
+    }
+  </script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-midnight text-parchment font-sans antialiased overflow-x-hidden">
+
+  <!-- Navigation -->
+  <nav id="nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-700 py-6 px-6 md:px-12 mix-blend-difference">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <a href="index.html" class="font-serif text-xl tracking-tight text-parchment hover:opacity-50 transition">GYKT</a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#sinopsis" class="nav-link text-[10px] tracking-[0.3em] uppercase text-parchment/50 hover:text-parchment transition">Sinopsis</a>
+        <a href="#karakter" class="nav-link text-[10px] tracking-[0.3em] uppercase text-parchment/50 hover:text-parchment transition">Karakter</a>
+        <a href="#tema" class="nav-link text-[10px] tracking-[0.3em] uppercase text-parchment/50 hover:text-parchment transition">Tema</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- LOGLINE & 4 LOSSES -->
+  <section id="logline" class="relative pt-40 pb-32 md:pb-48 px-6 md:px-12 bg-wine/20 overflow-hidden border-b border-parchment/5">
+    <div class="hero-noise"></div>
+    <div class="max-w-6xl mx-auto relative z-10">
+      
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-20 items-center">
+        <div class="md:col-span-7 reveal">
+          <p class="text-[10px] tracking-[0.5em] uppercase text-ochre/50 mb-8">Logline</p>
+          
+          <p class="text-2xl md:text-4xl font-serif leading-snug md:leading-snug text-parchment/90">
+            Pada usia enam tahun, Ryan kehilangan adiknya, ibunya, dan ayahnya. Masing-masing di bulan berbeda, karena sakit yang berbeda. Saat meranjak usia dua puluh, neneknya—satu-satunya pelabuhan yang tersisa—juga pergi. Kini di usianya yang meranjak dua puluh satu, ia masih membawa satu pertanyaan: <em class="text-ochre not-italic font-medium">bagaimana caranya berdamai dengan kehilangan yang belum sempat ia pahami?</em>
+          </p>
+        </div>
+
+        <div class="md:col-span-5 reveal delay-200">
+          <div class="brutalist-box p-8 text-center">
+            <p class="font-serif text-[8rem] md:text-[10rem] leading-none text-ochre/20">4</p>
+            <div class="mt-4 space-y-3 text-left">
+              <p class="text-sm font-light text-parchment/40 border-b border-parchment/5 pb-2">Kayla <span class="text-ochre/50 text-xs ml-2">Adik</span></p>
+              <p class="text-sm font-light text-parchment/40 border-b border-parchment/5 pb-2">Neneng <span class="text-ochre/50 text-xs ml-2">Ibu</span></p>
+              <p class="text-sm font-light text-parchment/40 border-b border-parchment/5 pb-2">Iwan <span class="text-ochre/50 text-xs ml-2">Ayah</span></p>
+              <p class="text-sm font-light text-parchment/80 border-b border-parchment/5 pb-2">Nenek <span class="text-ochre text-xs ml-2">Pelabuhan Terakhir</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- KARAKTER -->
+  <section id="karakter" class="relative py-32 md:py-48 overflow-hidden">
+    <div class="hero-noise"></div>
+    
+    <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+      <div class="mb-20 reveal">
+        <p class="text-[10px] tracking-[0.5em] uppercase text-ochre/50 mb-4">Karakter</p>
+        <h2 class="font-serif text-5xl md:text-7xl tracking-tighter text-parchment">Yang Tertinggal</h2>
+      </div>
+
+      <!-- Ryan -->
+      <div class="reveal mb-16 group">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-0 items-center brutalist-card">
+          <div class="md:col-span-4 bg-parchment/5 p-8 md:p-12 h-full flex flex-col justify-center transition-colors duration-500 group-hover:bg-parchment/10">
+            <h3 class="font-serif text-6xl md:text-8xl tracking-tighter text-parchment group-hover:text-ochre transition-colors duration-500">Ryan</h3>
+            <p class="text-[10px] tracking-[0.3em] uppercase text-ochre/60 mt-4">Meranjak 21 Tahun · Tokoh Utama</p>
+          </div>
+          <div class="md:col-span-8 p-8 md:p-12 bg-midnight/50 border-l border-parchment/5">
+            <p class="text-base font-light text-parchment/60 leading-relaxed">Lahir di Jakarta, 11 November 2005. Usia enam tahun, ia kehilangan adik, ibu, dan ayahnya. Dibawa ke Giyanten, Temanggung. Saat meranjak usia 20 tahun, neneknya pergi—membawanya ke titik paling terpuruk. Kini di usianya yang meranjak 21 tahun, ia tinggal bersama pakde dan budenya.</p>
+            <p class="text-base font-light text-ochre/80 leading-relaxed mt-6 italic border-l-2 border-ochre/30 pl-4">"Menulis adalah satu-satunya cara ia masih bisa bernapas."</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Lost Ones -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="reveal brutalist-card p-8 group hover:bg-parchment/5 transition-colors duration-500">
+          <h3 class="font-serif text-4xl tracking-tighter text-parchment/30 group-hover:text-parchment/70 transition-colors">Kayla</h3>
+          <p class="text-[10px] tracking-[0.3em] uppercase text-parchment/20 mb-6">Adik</p>
+          <p class="text-sm font-light text-parchment/40 leading-relaxed">Yang pergi lebih dulu. Kehilangan pertama yang harus Ryan cerna di usia yang terlalu kecil.</p>
+        </div>
+        <div class="reveal delay-100 brutalist-card p-8 group hover:bg-parchment/5 transition-colors duration-500">
+          <h3 class="font-serif text-4xl tracking-tighter text-parchment/30 group-hover:text-parchment/70 transition-colors">Neneng</h3>
+          <p class="text-[10px] tracking-[0.3em] uppercase text-parchment/20 mb-6">Ibu</p>
+          <p class="text-sm font-light text-parchment/40 leading-relaxed">Menyusul Kayla beberapa bulan kemudian. Kehilangan kedua yang memecah rumah.</p>
+        </div>
+        <div class="reveal delay-200 brutalist-card p-8 group hover:bg-parchment/5 transition-colors duration-500">
+          <h3 class="font-serif text-4xl tracking-tighter text-parchment/30 group-hover:text-parchment/70 transition-colors">Iwan</h3>
+          <p class="text-[10px] tracking-[0.3em] uppercase text-parchment/20 mb-6">Ayah</p>
+          <p class="text-sm font-light text-parchment/40 leading-relaxed">Pergi terakhir di tahun itu. Ryan belum cukup besar mengerti apa artinya seorang ayah sebelum ia kehilangan sosok itu.</p>
+        </div>
+      </div>
+
+      <!-- Nenek & Dika -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+        <div class="reveal brutalist-card p-8 border-ochre/10 group hover:bg-ochre/5 transition-colors duration-500">
+          <h3 class="font-serif text-5xl tracking-tighter text-ochre/50 group-hover:text-ochre transition-colors">Nenek</h3>
+          <p class="text-[10px] tracking-[0.3em] uppercase text-ochre/40 mb-6">Pelabuhan Terakhir</p>
+          <p class="text-sm font-light text-parchment/50 leading-relaxed">Perempuan tua yang berbicara singkat tapi tidak pernah absen. Selalu ada teh di meja. Pergi saat Ryan meranjak 20 tahun—membawa serta satu-satunya tempat Ryan benar-benar pulang.</p>
+        </div>
+        <div class="reveal delay-100 brutalist-card p-8 group hover:bg-parchment/5 transition-colors duration-500">
+          <h3 class="font-serif text-5xl tracking-tighter text-parchment/60 group-hover:text-parchment transition-colors">Dika</h3>
+          <p class="text-[10px] tracking-[0.3em] uppercase text-parchment/30 mb-6">Sahabat Masa Kecil</p>
+          <p class="text-sm font-light text-parchment/40 leading-relaxed">Satu-satunya orang yang mengenal Ryan sebelum ia belajar menyembunyikan luka. Kehadirannya yang sederhana adalah jangkar di tengah semua yang terus hilang.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SINOPSIS -->
+  <section id="sinopsis" class="relative py-32 md:py-48 bg-wine/10 overflow-hidden border-y border-parchment/5">
+    <div class="hero-noise"></div>
+    
+    <div class="max-w-5xl mx-auto px-6 md:px-12 relative z-10">
+      <div class="mb-32 text-center reveal">
+        <p class="text-[10px] tracking-[0.5em] uppercase text-ochre/50 mb-4">Sinopsis</p>
+        <h2 class="font-serif text-5xl md:text-7xl tracking-tighter text-parchment">Enam Bab, <span class="italic text-ochre">Satu Garis</span></h2>
+      </div>
+
+      <div class="space-y-32">
+        
+        <!-- ACT I -->
+        <div class="reveal editorial-act">
+          <div class="flex items-center gap-4 mb-8">
+            <span class="font-serif text-6xl text-parchment/10">01</span>
+            <div>
+              <p class="text-[10px] tracking-[0.3em] uppercase text-ochre/40">Bagian 1</p>
+              <h3 class="font-serif text-2xl md:text-3xl tracking-tight text-parchment/80">Tiga Bulan, Tiga Kepergian</h3>
+            </div>
+          </div>
+          <div class="md:pl-16">
+            <p class="text-lg font-light text-parchment/50 leading-relaxed mb-6 drop-cap">Ada hal-hal yang tak seharusnya dipahami oleh anak berusia enam tahun. Tapi hidup tidak selalu menunggu seseorang cukup siap. Dalam kurun waktu kurang dari setahun, Ryan kehilangan tiga orang yang paling ia cintai. Masing-masing karena sakit yang datang tiba-tiba, berbeda jenisnya, berbeda bulannya.</p>
+            <p class="text-lg font-light text-parchment/70 leading-relaxed mb-6"><span class="text-parchment">Kayla pergi lebih dulu.</span> Beberapa bulan kemudian, <span class="text-parchment">Mama Neneng menyusul.</span> Lalu <span class="text-parchment">Iwan di bulan yang berbeda lagi.</span> Bukan kecelakaan. Bukan bencana. Hanya sakit. Kata yang terasa terlalu kecil untuk menanggung makna sebesar itu.</p>
+            <p class="text-lg font-light text-parchment/90 leading-relaxed">Di pemakaman ketiga, Ryan tidak menangis. Bukan karena tidak sedih, tapi karena ia tidak tahu lagi bagaimana caranya. <em class="text-ochre not-italic font-medium">Di usia enam tahun, ia sudah kehabisan cara berduka.</em></p>
+          </div>
+        </div>
+
+        <!-- ACT II -->
+        <div class="reveal editorial-act">
+          <div class="flex items-center gap-4 mb-8">
+            <span class="font-serif text-6xl text-parchment/10">02</span>
+            <div>
+              <p class="text-[10px] tracking-[0.3em] uppercase text-ochre/40">Bagian 2</p>
+              <h3 class="font-serif text-2xl md:text-3xl tracking-tight text-parchment/80">Giyanten</h3>
+            </div>
+          </div>
+          <div class="md:pl-16">
+            <p class="text-lg font-light text-parchment/50 leading-relaxed mb-6 drop-cap">Ryan dibawa ke Giyanten, desa kecil di Kecamatan Kandangan, Temanggung. Ke rumah neneknya. Perempuan tua yang berbicara singkat tapi tidak pernah absen. Selalu ada teh di meja. Selalu ada pelukan di saat yang tepat.</p>
+            <p class="text-lg font-light text-parchment/90 leading-relaxed">Di desa itu pula Ryan bertemu Dika. Anak tetangga yang ribut dan hangat. Di dekat Dika, Ryan bisa berpura-pura bahwa dunia memang seharusnya seramai itu. Dan untuk seorang anak yang baru saja kehilangan segalanya, <em class="text-ochre not-italic font-medium">berpura-pura saja sudah cukup untuk bertahan.</em></p>
+          </div>
+        </div>
+
+        <!-- ACT III -->
+        <div class="reveal editorial-act">
+          <div class="flex items-center gap-4 mb-8">
+            <span class="font-serif text-6xl text-parchment/10">03</span>
+            <div>
+              <p class="text-[10px] tracking-[0.3em] uppercase text-ochre/40">Bagian 3</p>
+              <h3 class="font-serif text-2xl md:text-3xl tracking-tight text-parchment/80">Perjalanan yang Tak Berhenti</h3>
+            </div>
+          </div>
+          <div class="md:pl-16">
+            <p class="text-lg font-light text-parchment/50 leading-relaxed mb-6 drop-cap">Ryan tumbuh dengan berpindah-pindah. Saat SMP, ia mondok di SMPIT Salman Al-Farisi di Yogyakarta. Di sana ia belajar bahwa kesepian dan kesendirian adalah dua hal yang berbeda. Dan bahwa <em class="text-ochre not-italic font-medium">menulis bisa mengisi keduanya sekaligus.</em></p>
+            <p class="text-lg font-light text-parchment/70 leading-relaxed">SMA di MAN Temanggung membawanya pulang sebentar. Dika masih ada. Tidak banyak berubah. Dan itu terasa seperti hadiah yang tak pernah Ryan minta tapi selalu ia butuhkan.</p>
+          </div>
+        </div>
+
+        <!-- ACT IV (CLIMAX - NENEK) -->
+        <div class="reveal editorial-act climax-act relative p-8 md:p-12 border border-ochre/20 bg-midnight/50 backdrop-blur-sm">
+          <div class="flex items-center gap-4 mb-8">
+            <span class="font-serif text-6xl text-ochre/30">04</span>
+            <div>
+              <p class="text-[10px] tracking-[0.3em] uppercase text-ochre/60">Bagian 4</p>
+              <h3 class="font-serif text-2xl md:text-3xl tracking-tight text-ochre">Meranjak Dua Puluh</h3>
+            </div>
+          </div>
+          <div class="md:pl-16">
+            <p class="text-lg font-light text-parchment/50 leading-relaxed mb-6 drop-cap">Kuliah membawa Ryan kembali ke Yogyakarta. Di sini tidak ada nenek di rumah sebelah. Hanya kamar kos, laptop, dan naskah-naskah yang tak pernah ia selesaikan.</p>
+            <p class="text-lg font-light text-parchment/90 leading-relaxed mb-6">Saat usianya meranjak dua puluh, kabar itu datang. <span class="text-ochre font-medium">Neneknya pergi.</span> Perempuan terakhir yang masih menyebut namanya dengan nada yang hangat. Hari di mana Ryan berada di titik paling terpuruk. Ia pulang ke Giyanten untuk terakhir kali sebagai orang yang punya rumah.</p>
+            <p class="text-lg font-light text-parchment/70 leading-relaxed">Setelah itu, ia tinggal bersama pakde dan budenya. Mereka baik dan peduli. Tapi Ryan tahu, <em class="text-ochre not-italic font-medium">ada perbedaan antara ditampung dengan hangat dan benar-benar pulang.</em></p>
+          </div>
+        </div>
+
+        <!-- ACT V -->
+        <div class="reveal editorial-act">
+          <div class="flex items-center gap-4 mb-8">
+            <span class="font-serif text-6xl text-parchment/10">05</span>
+            <div>
+              <p class="text-[10px] tracking-[0.3em] uppercase text-ochre/40">Bagian 5</p>
+              <h3 class="font-serif text-2xl md:text-3xl tracking-tight text-parchment/80">Naskah & Yang Nenek Simpan</h3>
+            </div>
+          </div>
+          <div class="md:pl-16">
+            <p class="text-lg font-light text-parchment/50 leading-relaxed mb-6 drop-cap">Di usianya yang meranjak dua puluh satu, Ryan menulis lagi. Tentang seorang anak yang belajar berduka sebelum ia bisa membaca dengan lancar. Tentang nenek yang tak pernah menjawab pertanyaan, tapi tak pernah pergi.</p>
+            <p class="text-lg font-light text-parchment/90 leading-relaxed">Naskah itu ia unggah diam-diam. Dalam semalam, ribuan orang membagikannya karena <em class="text-ochre not-italic font-medium">terasa seperti milik mereka sendiri.</em> Seorang jurnalis menelusurinya hingga ke Giyanten, dan menemukan sesuatu yang tidak Ryan sangka: ada surat-surat lama. Ada hal tentang Iwan yang sengaja nenek tahan, sampai Ryan cukup kuat untuk menerimanya.</p>
+          </div>
+        </div>
+
+        <!-- ACT VI -->
+        <div class="reveal editorial-act">
+          <div class="flex items-center gap-4 mb-8">
+            <span class="font-serif text-6xl text-parchment/10">06</span>
+            <div>
+              <p class="text-[10px] tracking-[0.3em] uppercase text-ochre/40">Bagian 6</p>
+              <h3 class="font-serif text-2xl md:text-3xl tracking-tight text-parchment/80">Garis</h3>
+            </div>
+          </div>
+          <div class="md:pl-16">
+            <p class="text-lg font-light text-parchment/50 leading-relaxed mb-8">Ryan berdiri di depan pertanyaan yang selama belasan tahun ia hindari. Apakah ia mau tahu? Apakah tahu akan membuat segalanya lebih ringan, atau hanya membuka luka yang sudah lama ia pelajari cara mendiaminya?</p>
+            <p class="text-2xl md:text-4xl font-serif text-parchment leading-relaxed">Untuk pertama kalinya dalam hidupnya, ia tidak lari. Ia menarik garis. <em class="text-ochre not-italic font-semibold">Antara anak kecil yang kehabisan cara berduka, dan pemuda yang akhirnya memilih untuk merasakan.</em></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="relative py-32 md:py-48 overflow-hidden">
+    <div class="hero-noise"></div>
+    <div class="max-w-4xl mx-auto text-center px-6 relative z-10 reveal">
+      <span class="font-serif text-[15vw] leading-none text-parchment/[0.03] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none">&ldquo;</span>
+      <blockquote class="font-serif text-3xl md:text-6xl leading-snug tracking-tight text-parchment/90 italic relative z-10">
+        Ada anak-anak yang tumbuh sebelum waktunya. Bukan karena mereka kuat, tapi karena tidak ada pilihan lain selain terus berdiri.
+      </blockquote>
+      <div class="w-20 h-px bg-gradient-to-r from-transparent via-ochre/50 to-transparent mx-auto mt-12"></div>
+    </div>
+  </section>
+
+  <!-- TEMA (GAMBAR RUMAH DESA SAWAH SENJA) -->
+  <section id="tema" class="relative py-32 md:py-48 bg-wine/10 overflow-hidden border-t border-parchment/5">
+    <div class="hero-noise"></div>
+    <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+      <div class="mb-20 reveal">
+        <p class="text-[10px] tracking-[0.5em] uppercase text-ochre/50 mb-4">Tema & Pesan</p>
+        <h2 class="font-serif text-5xl md:text-7xl tracking-tighter text-parchment">Apa Yang <span class="italic text-ochre">Tertinggal</span></h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-start">
+        
+        <!-- Image Section (Rumah Desa Tengah Sawah Senja) -->
+        <div class="md:col-span-5 reveal">
+          <div class="relative group">
+            <div class="absolute -inset-4 bg-gradient-to-r from-ochre/10 to-wine/20 blur-2xl opacity-50 group-hover:opacity-80 transition-opacity duration-700 rounded-lg"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1559133000-4a2fb1040c07?q=80&w=1920&auto=format&fit=crop" 
+              alt="Rumah desa di tengah sawah senja" 
+              class="relative w-full aspect-[4/5] object-cover rounded-sm border border-parchment/10 group-hover:border-ochre/30 transition-all duration-700 grayscale-[40%] group-hover:grayscale-0"
+            >
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-midnight/80 to-transparent p-6">
+              <p class="text-xs font-serif italic text-parchment/60">Rumah di Giyanten — tempat terakhir ia benar-benar pulang.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cards Section -->
+        <div class="md:col-span-7 space-y-6">
+          <div class="reveal brutalist-card p-8 group hover:border-ochre/20 transition-all duration-500">
+            <span class="iconify text-parchment/10 group-hover:text-ochre/40 transition-colors duration-700 mb-5 block" data-icon="lucide:heart-crack" data-width="32"></span>
+            <h3 class="font-serif text-xl md:text-2xl mb-3 text-parchment/70 group-hover:text-ochre transition-all duration-500">Duka yang Tidak Sempat Dipahami</h3>
+            <p class="text-sm font-light text-parchment/30 leading-relaxed group-hover:text-parchment/50 transition-colors">Apa yang terjadi pada anak kecil yang belajar kehilangan sebelum ia tahu apa artinya mencintai?</p>
+          </div>
+
+          <div class="reveal delay-100 brutalist-card p-8 group hover:border-ochre/20 transition-all duration-500">
+            <span class="iconify text-parchment/10 group-hover:text-ochre/40 transition-colors duration-700 mb-5 block" data-icon="lucide:layers" data-width="32"></span>
+            <h3 class="font-serif text-xl md:text-2xl mb-3 text-parchment/70 group-hover:text-ochre transition-all duration-500">Kehilangan Berlapis</h3>
+            <p class="text-sm font-light text-parchment/30 leading-relaxed group-hover:text-parchment/50 transition-colors">Empat kepergian, sakit yang berbeda, waktu yang berbeda. Satu anak yang harus menanggung semuanya.</p>
+          </div>
+
+          <div class="reveal delay-200 brutalist-card p-8 group hover:border-ochre/20 transition-all duration-500 border-ochre/10">
+            <span class="iconify text-parchment/10 group-hover:text-ochre/40 transition-colors duration-700 mb-5 block" data-icon="lucide:home" data-width="32"></span>
+            <h3 class="font-serif text-xl md:text-2xl mb-3 text-parchment/70 group-hover:text-ochre transition-all duration-500">Rumah Bukan Tempat, Tapi Orang</h3>
+            <p class="text-sm font-light text-parchment/30 leading-relaxed group-hover:text-parchment/50 transition-colors">Giyanten, pesantren, Temanggung, Yogyakarta. Ryan terus berpindah, tapi yang ia cari selalu sama.</p>
+          </div>
+
+          <div class="reveal delay-300 brutalist-card p-8 group hover:border-ochre/20 transition-all duration-500">
+            <span class="iconify text-parchment/10 group-hover:text-ochre/40 transition-colors duration-700 mb-5 block" data-icon="lucide:eye" data-width="32"></span>
+            <h3 class="font-serif text-xl md:text-2xl mb-3 text-parchment/70 group-hover:text-ochre transition-all duration-500">Keberanian Memilih untuk Tahu</h3>
+            <p class="text-sm font-light text-parchment/30 leading-relaxed group-hover:text-parchment/50 transition-colors">Bukan berteriak atau melawan. Tapi memilih menghadapi kebenaran yang lama disembunyikan demi kebaikannya.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="relative py-24 md:py-32 border-t border-parchment/5 overflow-hidden">
+    <div class="hero-noise"></div>
+    <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-end">
+        <div>
+          <h2 class="font-serif text-5xl md:text-7xl tracking-tighter mb-6 text-parchment">Garis Yang<br>Kita <span class="italic text-ochre">Tarik</span></h2>
+          <p class="text-sm font-light text-parchment/30 max-w-sm">Drama Sosial · Film Panjang</p>
+        </div>
+        <div class="md:text-right">
+          <p class="text-[10px] tracking-[0.3em] uppercase text-parchment/20 mb-3">Ditulis oleh</p>
+          <p class="font-serif text-2xl text-parchment/80">George Ryan Saputra</p>
+          <div class="w-20 h-px bg-gradient-to-r from-transparent via-ochre/40 to-transparent mt-8 mb-6 md:ml-auto"></div>
+          <p class="text-[10px] tracking-widest uppercase text-parchment/10">&copy; 2026</p>
+          
+          <div class="mt-10 pt-6 border-t border-parchment/5">
+            <p class="text-[10px] tracking-[0.3em] uppercase text-ochre/50 mb-2">Disusun Khusus Untuk</p>
+            <p class="font-serif text-lg text-parchment/60">MARCOMM DAY 2026</p>
+            <p class="text-xs text-parchment/30 mt-1">Workshop Bedah Sinopsis bersama Gina S. Noer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
